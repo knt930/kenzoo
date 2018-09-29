@@ -1,0 +1,107 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, button, input, select, textarea{
+  color: #222;
+}
+
+div {
+  display: block;
+}
+
+ul {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+body {
+  background-color: black;
+  font-family: "garamond" , "Crimson Text", serif;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0;
+  display: block;
+}
+
+.top-wrapper {
+  width: 100%;
+}
+
+.top-logo {
+  background-image: url("<%= asset_path('knz.png') %>");
+  background-size: cover;
+  height: 430px;
+  width: 774px;
+  margin: auto;
+}
+
+#gnavi {
+  height: 36px !important;
+  min-height: 36px !important;
+  width: 100%;
+  background-color: rgba(24,24,24,0.8);
+}
+
+#main-menu {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+#main-menu > li {
+  float: left;
+  position: relative;
+  width: 480px;
+  height: 100%;
+  &:hover {
+    background-color: rgba(60,60,60,0.9);
+  }
+  p {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #818181;
+  }
+  p:hover {
+    cursor: pointer;
+  }
+}
+
+#footer {
+  position: fixed;
+  bototm: 0;
+  width: 100%;
+  margin-left: 32px;
+}
+
+#copyright {
+  margin-top: 300px;
+  margin-left: 12px;
+  padding-top: 10px;
+  clear: both;
+  font-size: 11px;
+  color: #a1a1a1;
+}
