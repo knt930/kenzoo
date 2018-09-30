@@ -43,11 +43,11 @@ body {
 
 /*ホーム画面*/
 
-.top-wrapper {
+#top-wrapper {
   width: 100%;
 }
 
-.top-logo {
+#top-logo {
   background-image: url("<%= asset_path('knz.png') %>");
   background-size: cover;
   height: 430px;
@@ -57,7 +57,7 @@ body {
 
 /*ナビバー*/
 
-#gnavi {
+#kzTop #gnavi {
   height: 36px !important;
   min-height: 36px !important;
   width: 100%;
@@ -107,13 +107,87 @@ body {
 
 #copyright {
   margin-left: 12px;
+  margin-right: 12px;
   padding-top: 10px;
   clear: both;
   font-size: 11px;
   color: #a1a1a1;
 }
 
-/*ページレイアウト*/
+/*コンテンツ*/
 .contents-wrapper {
-  color: #818181;
+  color: black;
+  width: 1240px;
+  float: right;
+  padding: 30px;
+}
+
+/*ナビバー*/
+#kz #gnavi-wrapper {
+  width: 200px;
+  float: left;
+  position: relative;
+  z-index: 999;
+}
+
+#kz #gnavi {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 100%;
+  background: black;
+  a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#kz #gnavi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#kz #kz-top-logo img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#kz ul#gnavi-main-menu {
+  width: 100%;
+  margin: 10px 0;
+  font-size: 18px;
+  color: white;
+}
+
+#kz #gnavi-main-menu  li {
+  padding-top: 7px;
+  cursor:pointer;
+}
+
+#kz #gnavi-main-menu .aco_navi a {
+  padding-left: 32px;
+  &:hover {
+    color: #888888;
+  }
+}
+
+#kz-footer {
+  text-align: right;
+  height: 35px;
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  #copyright {
+    color: black;
+  }
+}
+
+#kz {
+  background-color: white;
 }
