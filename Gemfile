@@ -9,7 +9,10 @@ gem 'rails', '~> 5.2.1'
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
-# Use SCSS for stylesheets
+# Assets
+gem 'bootstrap'
+gem 'font-awesome-rails'
+gem 'jquery-rails'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -53,5 +56,3 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'slim-rails'
-gem 'bootstrap'
-gem 'jquery-rails'

@@ -41,6 +41,10 @@ body {
   display: block;
 }
 
+header {
+  background-color: black;
+}
+
 /*ホーム画面*/
 
 #top-wrapper {
@@ -117,70 +121,45 @@ body {
 /*コンテンツ*/
 .contents-wrapper {
   color: black;
-  width: 1240px;
-  float: right;
   padding: 30px;
 }
 
-/*ナビバー*/
-#kz #gnavi-wrapper {
-  width: 200px;
-  float: left;
-  position: relative;
-  z-index: 999;
+/*コンテンツヘッダー*/
+.bg-dark {
+  background-color: black !important;
 }
 
-#kz #gnavi {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 200px;
-  height: 100%;
-  background: black;
-  a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
+#nav-img {
+  width: 150px;
+  height: 70px;
 }
 
-#kz #gnavi ul {
-  list-style: none;
-  margin: 0;
+.navbar {
   padding: 0;
 }
 
-#kz #kz-top-logo img {
-  width: 200px;
-  display: block;
-  margin: 0 auto;
+.navbar-brand {
+  padding: 0;
 }
 
-#kz ul#gnavi-main-menu {
-  width: 100%;
-  margin: 10px 0;
-  font-size: 18px;
-  color: white;
+.navbar-nav {
+  margin-top: 0;
 }
 
-#kz #gnavi-main-menu  li {
-  padding-top: 7px;
-  cursor:pointer;
+.navbar-nav .nav-link {
+  text-align: center;
 }
 
-#kz #gnavi-main-menu .aco_navi a {
-  padding-left: 32px;
-  &:hover {
-    color: #888888;
-  }
+.nav-item {
+  margin: 0 20px;
 }
+
+/*フッター*/
 
 #kz-footer {
   text-align: right;
   height: 35px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 5px;
   #copyright {

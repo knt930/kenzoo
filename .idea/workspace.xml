@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss.erb" line="80" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss.erb" line="84" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18e64cb3-04e8-464e-87a0-07386b184037" name="Default Changelist" comment="生成された雑多なファイル群">
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_gnavi.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_kz_footer.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/contents.html.slim" afterDir="false" />
+    <list default="true" id="18e64cb3-04e8-464e-87a0-07386b184037" name="Default Changelist" comment="ナビバー作成、レイアウト微調整完了">
+      <change beforePath="$PROJECT_DIR$/.idea/kenzoo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kenzoo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.scss.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.scss.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/about_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/about_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/works_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/works_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/about/index.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about/index.html.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/works/index.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/works/index.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_gnavi.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_gnavi.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/contents.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/contents.html.slim" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,52 +50,54 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="4" />
+          <entry key="Gemfile" value="5" />
+          <entry key="coffee" value="1" />
           <entry key="css" value="6" />
           <entry key="erb" value="18" />
           <entry key="gitignore" value="4" />
-          <entry key="js" value="3" />
+          <entry key="js" value="7" />
           <entry key="lock" value="1" />
           <entry key="png" value="4" />
           <entry key="rb" value="14" />
-          <entry key="scss" value="12" />
-          <entry key="slim" value="23" />
+          <entry key="scss" value="15" />
+          <entry key="slim" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="6" />
+          <entry key="CoffeeScript" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RHTML" value="18" />
-          <entry key="Ruby" value="18" />
-          <entry key="SCSS" value="12" />
-          <entry key="Slim" value="23" />
+          <entry key="Ruby" value="19" />
+          <entry key="SCSS" value="15" />
+          <entry key="Slim" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Gemfile" value="49" />
+          <entry key="Gemfile" value="83" />
           <entry key="css" value="2" />
-          <entry key="erb" value="2450" />
+          <entry key="erb" value="4416" />
           <entry key="gitignore" value="53" />
-          <entry key="js" value="91" />
+          <entry key="js" value="1051" />
           <entry key="rb" value="335" />
-          <entry key="scss" value="629" />
-          <entry key="slim" value="2335" />
-          <entry key="txt" value="132" />
+          <entry key="scss" value="678" />
+          <entry key="slim" value="2986" />
+          <entry key="txt" value="149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="JavaScript" value="91" />
-          <entry key="PLAIN_TEXT" value="185" />
-          <entry key="RHTML" value="2450" />
-          <entry key="Ruby" value="384" />
-          <entry key="SCSS" value="629" />
-          <entry key="Slim" value="2335" />
+          <entry key="JavaScript" value="1051" />
+          <entry key="PLAIN_TEXT" value="202" />
+          <entry key="RHTML" value="4416" />
+          <entry key="Ruby" value="418" />
+          <entry key="SCSS" value="678" />
+          <entry key="Slim" value="2986" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything" />
@@ -114,10 +112,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/about/index.html.slim">
+        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -134,17 +132,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/contents.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/works/index.html.slim">
+        <entry file="file://$PROJECT_DIR$/app/views/about/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="15">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -152,22 +150,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2790">
-              <caret line="186" column="17" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/works_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="308">
+              <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -193,26 +189,27 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
         <option value="$PROJECT_DIR$/app/views/details/about.html.slim" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/views/layouts/_contents.html.slim" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/about_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/about.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_gnavi.html.slim" />
         <option value="$PROJECT_DIR$/app/controllers/works_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.slim" />
         <option value="$PROJECT_DIR$/app/views/layouts/_kz_footer.html.slim" />
-        <option value="$PROJECT_DIR$/app/views/layouts/contents.html.slim" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/about/index.html.slim" />
         <option value="$PROJECT_DIR$/app/views/works/index.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/about/index.html.slim" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/contents.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.slim" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/navbar.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_gnavi.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.scss.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
       </list>
     </option>
   </component>
@@ -230,7 +227,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -299,6 +296,13 @@
               <item name="kenzoo" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenzoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenzoo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kenzoo" type="b2602c69:ProjectViewProjectNode" />
@@ -446,14 +450,21 @@
       <option name="project" value="LOCAL" />
       <updated>1538237293341</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ナビバー作成、レイアウト微調整完了">
+      <created>1538301773212</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1538301773212</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43199000" />
+    <option name="totallyTimeSpent" value="80073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
@@ -517,7 +528,8 @@
     <MESSAGE value="About画面、Works画面を実装" />
     <MESSAGE value="新規作成ファイル" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="ナビバー作成、レイアウト微調整完了" />
+    <option name="LAST_COMMIT_MESSAGE" value="ナビバー作成、レイアウト微調整完了" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/home/home.html.erb" />
@@ -578,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -598,13 +603,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/images/knz.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/about_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -615,34 +613,10 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/works.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="44" selection-start-column="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/works_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -667,38 +641,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/contents.html.slim">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about/index.html.slim">
+    <entry file="file://$PROJECT_DIR$/app/controllers/works_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/about.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.slim">
+    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/jquery-rails-4.3.3/vendor/assets/javascripts/jquery3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="237">
+          <caret line="7413" column="4" selection-start-line="7413" selection-start-column="4" selection-end-line="7413" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_gnavi.html.slim">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -709,10 +708,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_gnavi.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/contents.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/about/index.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="186" column="17" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
+        <state relative-caret-position="308">
+          <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
         </state>
       </provider>
     </entry>

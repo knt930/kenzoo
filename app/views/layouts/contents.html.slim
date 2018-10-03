@@ -6,8 +6,8 @@ html
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all'
-    = javascript_include_tag 'application'
   body#kz
-    = render 'layouts/gnavi'
+    header
+      = render 'layouts/gnavi'
     = yield
-    = render 'layouts/kz_footer'
+    = javascript_include_tag 'application'
