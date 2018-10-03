@@ -1,7 +1,8 @@
+- @page_title = 'About'
 .contents-wrapper
   h1 About
   p
-    | 都内大学に通う大学生です。(４年度休学中)
+    | 都内大学に通う大学生(４年度休学中)のポートフォリオサイトです。
     br
     | 2018年４月よりプログラミングの勉強を開始しました。
     br
@@ -9,23 +10,26 @@
   #prof-img-wrapper
     = image_tag '/images/prof.jpg', class: 'rounded-circle', size: '200x200', id: 'prof-img'
     br
-    | けんぞー
+    p けんぞー
   #profile
     h2 Profile
-    table.table.table-dark
+    table.table
       tbody
         tr
           th 名前
           td けんぞー
         tr
           th Twitter
-          td = link_to '@knt2g', 'https://twitter.com/knt2g', target: '_blank'
+          td = link_to '@knz2g', 'https://twitter.com/knz2g', target: '_blank'
+        tr
+          th 所在地
+          td 東京, 神奈川
         tr
           th 所属
           td 慶應義塾大学経済学部4年(休学中)
         tr
           th すきなこと
-          td プログラミング, 音楽, ファッション, 野球観戦
+          td プログラミング, 音楽, ファッション, 野球観戦, YouTube
         tr
           th スキル
           td Ruby, Ruby on Rails, Javascript, HTML, CSS, Bootstrap, Japanese, English(TOIEC 800), 動画編集(Adobe Premire Pro) etc...

@@ -41,13 +41,17 @@ body {
   display: block;
 }
 
+header {
+  background-color: black;
+}
+
 /*ホーム画面*/
 
-.top-wrapper {
+#top-wrapper {
   width: 100%;
 }
 
-.top-logo {
+#top-logo {
   background-image: url("<%= asset_path('knz.png') %>");
   background-size: cover;
   height: 430px;
@@ -57,7 +61,7 @@ body {
 
 /*ナビバー*/
 
-#gnavi {
+#kzTop #gnavi {
   height: 36px !important;
   min-height: 36px !important;
   width: 100%;
@@ -107,13 +111,62 @@ body {
 
 #copyright {
   margin-left: 12px;
+  margin-right: 12px;
   padding-top: 10px;
   clear: both;
   font-size: 11px;
   color: #a1a1a1;
 }
 
-/*ページレイアウト*/
+/*コンテンツ*/
 .contents-wrapper {
-  color: #818181;
+  color: black;
+  padding: 30px;
+}
+
+/*コンテンツヘッダー*/
+.bg-dark {
+  background-color: black !important;
+}
+
+#nav-img {
+  width: 150px;
+  height: 70px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-nav {
+  margin-top: 0;
+}
+
+.navbar-nav .nav-link {
+  text-align: center;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+/*フッター*/
+
+#kz-footer {
+  text-align: right;
+  height: 35px;
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  #copyright {
+    color: black;
+  }
+}
+
+#kz {
+  background-color: white;
 }

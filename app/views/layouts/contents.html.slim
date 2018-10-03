@@ -2,11 +2,12 @@ doctype html
 html
   head
     title
-      | Kenzoo
+      = page_title
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all'
-    = javascript_include_tag 'application'
-  body#kzTop
+  body#kz
+    header
+      = render 'layouts/gnavi'
     = yield
-    = render 'layouts/footer'
+    = javascript_include_tag 'application'
