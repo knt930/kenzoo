@@ -7,11 +7,9 @@ html, button, input, select, textarea{
 }
 
 div {
-  display: block;
 }
 
 ul {
-  display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
@@ -20,12 +18,10 @@ ul {
 }
 
 li {
-  display: list-item;
   text-align: -webkit-match-parent;
 }
 
 p {
-  display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
@@ -36,9 +32,7 @@ body {
   background-color: black;
   font-family: "garamond" , "Crimson Text", serif;
   font-size: 1em;
-  line-height: 1.4;
   margin: 0;
-  display: block;
 }
 
 header {
@@ -46,56 +40,29 @@ header {
 }
 
 /*ホーム画面*/
-
-#top-wrapper {
-  width: 100%;
-}
-
-#top-logo {
-  background-image: url("<%= asset_path('knz.png') %>");
-  background-size: cover;
-  height: 430px;
-  width: 774px;
-  margin: auto;
+.jumbotron {
+  background-color: black;
+  padding: 0;
 }
 
 /*ナビバー*/
-
-#kzTop #gnavi {
-  height: 36px !important;
-  min-height: 36px !important;
-  width: 100%;
-  background-color: rgba(24,24,24,0.8);
-}
-
-#main-menu {
-  list-style: none;
-  margin: 0 auto;
+#kzTop .navbar {
   padding: 0;
-  width: 960px;
-  text-align: center;
-  font-size: 16px;
-  line-height: 36px;
 }
 
-#main-menu > li {
-  float: left;
-  position: relative;
-  width: 480px;
-  height: 100%;
+#kzTop .bg-dark {
+  background-color: rgba(24,24,24,0.8) !important;
+}
+
+#kzTop .navbar-nav {
+  margin: 0;
+}
+
+#kzTop .nav-link {
+  padding: 6px 150px;
+  color: #818181;
   &:hover {
     background-color: rgba(60,60,60,0.9);
-  }
-  a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    color: #818181;
-  }
-  a:hover {
     cursor: pointer;
   }
 }
@@ -121,36 +88,36 @@ header {
 /*コンテンツ*/
 .contents-wrapper {
   color: black;
-  padding: 30px;
+  padding: 20px;
 }
 
 /*コンテンツヘッダー*/
-.bg-dark {
+#kz .bg-dark {
   background-color: black !important;
 }
 
-#nav-img {
+#kz #nav-img {
   width: 150px;
   height: 70px;
 }
 
-.navbar {
+#kz .navbar {
   padding: 0;
 }
 
-.navbar-brand {
+#kz .navbar-brand {
   padding: 0;
 }
 
-.navbar-nav {
+#kz .navbar-nav {
   margin-top: 0;
 }
 
-.navbar-nav .nav-link {
+#kz .navbar-nav .nav-link {
   text-align: center;
 }
 
-.nav-item {
+#kz .nav-item {
   margin: 0 20px;
 }
 
