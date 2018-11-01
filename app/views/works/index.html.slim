@@ -1,3 +1,15 @@
 - @page_title = 'Works'
-.contents-wrapper
-  h1 Comming soon...
+.container
+  .contents-wrapper
+    h1 Works
+    .row
+      .col-md-4
+        .card.mb-4.box-shadow
+          = link_to 'https://scoutter.tokyo/', target: '_blank' do
+            = image_tag 'scoutter.png', class:'card-img-top', alt: 'Scoutter Image'
+          .card-body
+            h5
+              | Scoutter
+            p
+              | Twitterの活動量を戦闘力に換算できるアプリ
+
